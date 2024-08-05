@@ -73,3 +73,40 @@ footer {
   height: 50px;
   background: #bb950e;
 }
+
+/* Desktop */
+@media (min-width: 1200px) {
+  .container {
+    width: 100%;
+  }
+}
+
+/* Tablet */
+@media (max-width: 1199px) {
+  .container {
+    width: 90%;
+  }
+}
+
+/* Mobile */
+@media (max-width: 599px) {
+  .container {
+    width: 80%;
+  }
+}
+
+/* Small Mobile */
+@media (max-width: 479px) {
+  .container {
+    width: 70%;
+  }
+}
+
+/* Extra Small Mobile */
+@media (max-width: 479px) {
+  .container {
+    width: 60%;
+  }
+}
+
+/* Utility Classes */

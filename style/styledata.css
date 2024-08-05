@@ -1,0 +1,22 @@
+table {
+  width: 100%;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: center;
+}
+th {
+  background-color: orange;
+}
+
+tr:hover {
+  background-color: #ddd;
+}
